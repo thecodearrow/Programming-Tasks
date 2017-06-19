@@ -1,0 +1,9 @@
+A person wants to create a Bank account, so he goes to Bank and the Bank requires
+following details to create a Bank account. Details such as first Name, last Name, age and address
+(Note: A descent address should comprise of Name, Door No, Street, City and Postal Code).
+Having given that the Bank would create an account with following details: Account Number
+and the Bank would also request the person to maintain a minimum balance of Rs.500, which he
+has to deposit for his account to get activated.
+Also, the Bank is interested to keep track of number of accounts the Bank has as per today
+and also number of transactions for per person per day. So you being the Software developer
+having listened to the client's requirement develop a successful Bank application.
