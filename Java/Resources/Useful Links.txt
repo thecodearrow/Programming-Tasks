@@ -1,9 +1,0 @@
-http://www.visionsdeveloper.com/tutorial/java/java-abstraction.jsp
-
-http://javapapers.com/oops/association-aggregation-composition-abstraction-generalization-realization-dependency/
-
-https://nirajrules.wordpress.com/2011/07/15/association-vs-dependency-vs-aggregation-vs-composition/
-
-https://www.caveofprogramming.com/java/java-file-reading-and-writing-files-in-java.html
-
-http://www.java67.com/2014/07/21-frequently-asked-java-interview-questions-answers.html
