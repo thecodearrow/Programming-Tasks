@@ -13,7 +13,7 @@ def user_choice():
 	#Exception handling for the sqlite connection
 	try:
 		conn=sqlite3.connect('library.db')
-		c=conn.cursor()
+		c=conn.cursor() 
 		c1=conn.cursor() #to display tables before 
 		c2=conn.cursor() #to display tables after
 
