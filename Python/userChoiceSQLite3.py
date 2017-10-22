@@ -13,14 +13,12 @@ def user_choice():
 	#Exception handling for the sqlite connection
 	try:
 		conn=sqlite3.connect('library.db')
-		c=conn.cursor() 
-		c1=conn.cursor() #to display tables before 
-		c2=conn.cursor() #to display tables after
+		c=conn.cursor()  #cursor object
 
 		
 		print("TABLE BOOKS(Before)")
-		c1.execute("SELECT * FROM BOOKS;")
-		print(c1.fetchall()) #Fetches the query result
+		c.execute("SELECT * FROM BOOKS;")
+		print(c.fetchall()) #Fetches the query result
 
 		further='T' #decides no. of times user wants to query
 
@@ -71,8 +69,8 @@ def user_choice():
 
 
 		print("TABLE BOOKS(AFTER)")
-		c2.execute("SELECT * FROM BOOKS;")
-		print(c2.fetchall()) #Fetches the query result
+		c.execute("SELECT * FROM BOOKS;")
+		print(c.fetchall()) #Fetches the query result
 
 
 
